@@ -1,0 +1,71 @@
+html {
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+}
+body {
+  padding: 2rem 1rem;
+  color: #93979e;
+  text-align: center;
+  background-color: #26282d;
+}
+
+a {
+  color: #fff;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: .25rem 1rem;
+  font-family: "PT Sans", sans-serif;
+  color: #ebcb8b;
+  border: .1rem solid #32343c;
+  border-radius: .1rem;
+}
+.btn:hover,
+.btn:focus {
+  color: #26282d;
+  background-color: #ebcb8b;
+  border-color: #ebcb8b;
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+.header {
+}
+.header-title {
+  display: inline-block;
+  padding: .5rem 1.5rem;
+  margin-bottom: 1rem;
+  border: .2rem solid #32343c;
+  border-radius: .1rem;
+}
+.header-lead {
+  margin-bottom: 0;
+}
+
+
+hr {
+  max-width: 6rem;
+  margin: 3rem auto;
+  border-top-color: #32343c;
+  border-bottom: 0;
+}
+
+.themes {
+  overflow: hidden; /* clearfix */
+  text-align: center;
+  padding: 0 2rem;
+}
+.theme {
+  float: left;
+  width: 50%;
+  padding: 0 1rem;
+}
+.theme h3 {
+  margin-top: 1rem;
+}

@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<h2>Meet Poole</h2>
+<p>Poole is the butler for <a href="http://jekyllrb.com">Jekyll</a>, the static site generator. It's designed and developed by <a href="https://twitter.com/mdo">@mdo</a> to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example templates, pages, posts, and styles.</p>
+<p>
+  <a href="https://github.com/poole/poole" class="btn">Learn more on GitHub</a>
+  <a href="http://demo.getpoole.com" class="btn">Demo</a>
+</p>
+
+<hr>
+
+<h2>Made with Poole</h2>
+<p>Use Poole as-is or in conjunction with one of the official themes.</p>
+
+<div class="themes">
+  {% for post in paginator.posts %}
+  <div class="theme">
+    <h3>
+      <a href="http://{{ post.demo }}.getpoole.com">{{ post.title }}</a>
+    </h3>
+    {{ post.content }}
+    <p>
+      <a href="http://{{ post.slug }}.getpoole.com" class="btn">Demo</a>
+      <a href="https://github.com/poole/{{ post.slug }}" class="btn">GitHub</a>
+    </p>
+  </div>
+  {% endfor %}
+</div>
+
+<hr>
+
+<h2>Strange Cases</h2>
+<p><em>The Strange Case of Dr. Jeykll and Mr. Hyde</em> tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.</p>
+
+<hr>
+
+<p>Poole and it's themes are licensed MIT.</p>
+<p>&copy; {{ site.time | date: '%Y' }} Mark Otto.</p>

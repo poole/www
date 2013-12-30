@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         rdiscount
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Poole
+tagline:          'The Jekyll Butler.'
+description:      'A diligent and noble steward for building Jekyll sites.'
+url:              http://getpoole.com
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+github:
+  repo:           https://github.com/poole/www
