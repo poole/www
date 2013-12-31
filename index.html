@@ -18,7 +18,7 @@ layout: default
   {% for post in paginator.posts %}
   <div class="theme">
     <h3>
-      <a href="http://{{ post.demo }}.getpoole.com">{{ post.title }}</a>
+      <a href="http://{{ post.slug }}.getpoole.com">{{ post.title }}</a>
     </h3>
     {{ post.content }}
     <p>
@@ -36,5 +36,5 @@ layout: default
 
 <hr>
 
-<p>Poole and it's themes are licensed MIT.</p>
+<p>Poole and its themes are licensed MIT.</p>
 <p>&copy; {{ site.time | date: '%Y' }} Mark Otto.</p>
