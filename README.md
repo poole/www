@@ -1,12 +1,13 @@
 # Poole site
 
-Homepage for everything related to Poole.
+Homepage for everything related to [Poole](https://github.com/poole/poole).
+
 
 ## Author
 
 **Mark Otto**
-<https://github.com/mdo>
-<https://twitter.com/mdo>
+- <https://github.com/mdo>
+- <https://twitter.com/mdo>
 
 
 ## License
