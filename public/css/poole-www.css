@@ -1,6 +1,7 @@
 html {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
+
 body {
   padding: 2rem 1rem;
   color: #93979e;
@@ -11,6 +12,7 @@ body {
 a {
   color: #fff;
 }
+
 a:hover,
 a:focus {
   text-decoration: none;
@@ -24,6 +26,7 @@ a:focus {
   border: .1rem solid #32343c;
   border-radius: .1rem;
 }
+
 .btn:hover,
 .btn:focus {
   color: #26282d;
@@ -35,8 +38,6 @@ h1, h2, h3 {
   color: #fff;
 }
 
-.header {
-}
 .header-title {
   display: inline-block;
   padding: .5rem 1.5rem;
@@ -44,10 +45,10 @@ h1, h2, h3 {
   border: .2rem solid #32343c;
   border-radius: .1rem;
 }
+
 .header-lead {
   margin-bottom: 0;
 }
-
 
 hr {
   max-width: 6rem;
@@ -61,11 +62,26 @@ hr {
   text-align: center;
   padding: 0 2rem;
 }
+
 .theme {
-  float: left;
-  width: 50%;
   padding: 0 1rem;
 }
+
+.theme:first-child {
+  margin-bottom: 3.5rem;
+}
+
 .theme h3 {
   margin-top: 1rem;
+}
+
+@media (min-width: 640px) {
+  .theme {
+    float: left;
+    width: 50%;
+  }
+
+  .theme:first-child {
+    margin-bottom: 0;
+  }
 }
